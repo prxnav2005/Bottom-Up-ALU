@@ -1,6 +1,6 @@
 # Bottom-Up-ALU
 
-A 32-Bit Bottom Up ALU. 
+A 32-Bit Bottom Up ALU made using Ripple Carry Adder, Binary Multiplier(built using Full Adders) and other basic logical operations.
 
 ## ALU Opcode Operations
 
