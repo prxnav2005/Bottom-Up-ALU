@@ -15,7 +15,7 @@ The ALU performs different operations based on the provided opcode. Below is a t
 | `100`           | Right Shift (>>) | Performs arithmetic right shift on `A` by the number of positions specified in the lower 5 bits of `B`. |
 | `101`           | Left Shift (<<)  | Performs logical left shift on `A` by the number of positions specified in the lower 5 bits of `B`. |
 | `110`           | Bitwise AND (&)  | Performs bitwise AND operation between `A` and `B`.                          |
-| `111`           | Bitwise OR (|)   | Performs bitwise OR operation between `A` and `B`.                           |
+| `111`           | Bitwise OR       | Performs bitwise OR operation between `A` and `B`.                           |
 
 ### Notes:
 - **Overflow (ov)**: For addition and subtraction, overflow is checked for signed operations, with overflow occurring when the sign bits do not match.
