@@ -6,7 +6,7 @@ A 32-Bit Bottom Up ALU.
 
 The ALU performs different operations based on the provided opcode. Below is a table that describes the ALU's operations:
 
-| Opcode (3 bits) | Operation        | Description                                                                 |
+| Opcode          | Operation        | Description                                                                 |
 |-----------------|------------------|-----------------------------------------------------------------------------|
 | `000`           | Addition (+)     | Performs the addition of `A` and `B`.                                         |
 | `001`           | Subtraction (-)  | Performs the subtraction (`A - B`). Overflow is checked for signed numbers.  |
