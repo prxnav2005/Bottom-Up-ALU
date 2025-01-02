@@ -31,12 +31,8 @@ endmodule
 
 module multiplier(input logic [31:0] a, b, output logic [63:0] prod);
   logic [63:0] temp_prod;
-  logic [31:0] s_a;
-  logic [31:0] partial_sum;
-  logic partial_carry;
-  logic [31:0] rca_a, rca_b;
-  logic [31:0] rca_sum;
-  logic rca_carry;
+  logic [31:0] s_a, partial_sum, rca_a, rca_b, rca_sum;
+  logic partial_carry, rca_carry;
 
   always_comb begin
     temp_prod = 64'b0;
